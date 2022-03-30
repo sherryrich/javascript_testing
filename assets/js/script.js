@@ -1,4 +1,4 @@
-/* This script displays a greeeting to the user bacsed upon the current Time
+/* This script displays a greeeting to the user based upon the current Time
 it is an example from Javascript and jquest book */
 
 let today = new Date(); // create a new date object
