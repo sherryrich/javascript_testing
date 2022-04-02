@@ -27,3 +27,13 @@ document.querySelector("button").style.backgroundColor = "yellow"; // change bac
 document.querySelector("button").style.color = "red"; // change text color to red
 
 document.querySelector("h2").classList.add("huge"); // Seperations of concerns,  added class to css, then styled in a single line of JS. Style in JS and bheavious in JS
+
+document.querySelector("h3").innerHTML // give you all of the HTML that is inside the tag
+
+document.querySelector("h3").innerHTML = "<em>Changed the heading text and applied the html element to the text</em>"; // Manitpulate the style and the text of HTML Element
+
+document.querySelector("a").getAttribute("href"); // manipulating attributes in HTML, will display the current link
+document.querySelector("a").setAttribute("href", "https://www.rte.ie/"); // will take user to RTE
+
+
+
